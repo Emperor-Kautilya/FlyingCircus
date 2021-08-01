@@ -1,0 +1,6 @@
+i=input("Name of file to read from :")
+f=input("Name of file to write to :")
+fp1=open(i,'r')
+fp2=open(f,'w')
+read=fp1.read()
+fp2.write(read+" ")
